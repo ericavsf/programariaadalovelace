@@ -1,0 +1,117 @@
+body
+{
+ text-align: center; /*alinhar texto*/
+ font-family:Open Sans,sans-serif;
+ background-color: #8A71C9;
+ color: #ffffff;
+ margin:0px 0px 30px 0px; /*o corpo ocupa todo espaço da tela,espaçamento inferior externo de 30px*/
+}
+
+h1
+{
+  font-size: 60px;/*tamanho das fontes*/
+  font-weight: 300;/*grossura da fonte*/
+}
+
+h2
+{
+ font-size: 40px;/*tamanho das fontes*/
+ color:#2a0074;
+}
+
+h3
+{
+  font-size: 22px;/*tamanho das fontes*/
+  font-style: italic;/*fonte italico*/
+  /*border: red 3px solid;*/
+}
+
+p{
+  font-size: 20px;/*tamanho das fontes*/
+  line-height: 1,5;/*ajustar altura das linhas de todos os paragrafos*/
+  /*border: pink 3px solid;*/
+}
+
+img
+{
+  width: 100%;
+  /*border:orange 3px solid;*/
+}
+
+.titulo-verde
+{
+ color: #04ff9f;
+}
+
+.titulo-vermelho
+{
+ color:#FF9E9E;
+}
+
+.titulo-amarelo
+{
+  color:#ffe36d;
+}
+
+section
+{
+  /*background-color: yellow; cor fundo da sessao*/
+  width: 60%; /*60% da largura do body mãe, maxima da sessão*/
+  margin:0 auto; /*laterais automatico iguais*/
+}
+
+section section /*corrigindo bug largura*/
+{
+  width: 100%;
+}
+
+ul
+{
+list-style-type: none;/*minha lista desordenada não precisa tter nenhum tipo de estilo de lista(bolinhas sumiram)*/
+line-height: 2;/*altura da linha na lista desordenada*/
+/*margin-top: 100px; distancia de um elemento até o outro*/
+/*padding-top: 50px;/*preenchimento interno que separa a ul entre a li*/
+padding-left: 0;
+/*background-color: yellow*/
+}
+
+a
+{
+text-decoration: none;/*tira o sublinhado*/
+color: #99ffff;/*cor da letra do link*/
+font-size: 700;/*peso da fonte/tamanho das fontes*/
+}
+
+/*li
+{
+background-color: green;
+}*/
+
+.menu_principal{
+background: #ff6cb5;
+height: 40px;
+max-width: 60%; /*largura do menu rosa*/
+margin: 0 auto;/*margem do menu*/
+}
+
+.menu_principal a
+{
+color:#FFF;
+font-weight: normal;
+text-decoration: underline;
+}
+
+.menu_principal li
+{
+display: inline-block;/*fica alinhado ao lado do outro*/
+line-height: 2.5; /*define altura para linha menu para ficar centralizado o texto*/
+margin: 0 89px;/*espaçamento em volta do texto do menu, distancia*/
+}
+
+button
+{
+background-color: #41f341;/*cor de fundo*/
+border: 1px solid rgba(0,0,0,0);/*borda sólida de 1px de largura e transparente*/
+padding:2px 20px;/*espaçamento interno de 2px em cima e embaixo e de 20px dos lados*/
+border-radius:3px/*raio da borda deve ser de 3px*/
+}
